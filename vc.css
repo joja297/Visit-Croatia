@@ -1,0 +1,55 @@
+img
+{
+    height:150px;
+    width:150px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.w3-third w3-container {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.about
+{
+    background-color: green;
+    opacity: 0.3;
+}
+
+.w3-col l3 m6 w3-margin-bottom {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after image containers */
+.nationalpark::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.box
+{
+  background-color:grey;
+}
+
+.about
+{
+  width:1500px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgrey;
+  color: black;
+  text-align: center;
+}
